@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 
 DISTRICTS = ["Cheras", "Setapak", "Bangsar", "Kepong", "KLCC"]
 N_DAYS = 7   # simulate one week of data
-OUTPUT_PATH = os.path.join("data", "raw", "environment_kl.csv")
+OUTPUT_PATH = './../data/raw/environment_kl.csv'
 
 def generate_synthetic_environment_data(districts, n_days):
     """
